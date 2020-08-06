@@ -22,7 +22,6 @@ import {
   AgmCoreModule
 } from '@agm/core';
 import { AdminLayoutComponent } from './layouts/admin-layout/admin-layout.component';
-import { RegisterComponent } from './register/register.component';
 
 @NgModule({
   imports: [
@@ -40,8 +39,6 @@ import { RegisterComponent } from './register/register.component';
   declarations: [
     AppComponent,
     AdminLayoutComponent,
-    RegisterComponent,
-
   ],
   providers: [],
   bootstrap: [AppComponent]
